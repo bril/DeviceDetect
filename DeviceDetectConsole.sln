@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeviceDetectConsole", "DeviceDetectConsole\DeviceDetectConsole.vcproj", "{46B915AC-1A0D-4202-81AD-7F98C22CECF6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4E7C44C1-B3B6-49A0-88CB-F78D7C2B5D73} = {4E7C44C1-B3B6-49A0-88CB-F78D7C2B5D73}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DeviceDetectLibrary", "DeviceDetectLibrary\DeviceDetectLibrary.vcproj", "{4E7C44C1-B3B6-49A0-88CB-F78D7C2B5D73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46B915AC-1A0D-4202-81AD-7F98C22CECF6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{46B915AC-1A0D-4202-81AD-7F98C22CECF6}.Debug|Win32.Build.0 = Debug|Win32
+		{46B915AC-1A0D-4202-81AD-7F98C22CECF6}.Release|Win32.ActiveCfg = Release|Win32
+		{46B915AC-1A0D-4202-81AD-7F98C22CECF6}.Release|Win32.Build.0 = Release|Win32
+		{4E7C44C1-B3B6-49A0-88CB-F78D7C2B5D73}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E7C44C1-B3B6-49A0-88CB-F78D7C2B5D73}.Debug|Win32.Build.0 = Debug|Win32
+		{4E7C44C1-B3B6-49A0-88CB-F78D7C2B5D73}.Release|Win32.ActiveCfg = Release|Win32
+		{4E7C44C1-B3B6-49A0-88CB-F78D7C2B5D73}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
